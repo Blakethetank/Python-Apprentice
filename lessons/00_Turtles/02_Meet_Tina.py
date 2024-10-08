@@ -38,13 +38,14 @@ tina.penup()                            # Lift the pen up so we can move tina wi
 tina.forward(20)                        # Move tina forward by 20
 tina.left(90)                           # Turn tina left by 90 degrees
 tina.forward(20)                        # Move tina forward by 20
-tina.write("Weasly has tooth!A wonderful magic tooth!")         # Write the message "Why, hello there!"
+tina.write("Weasly has a tooth!")         # Write the message "Why, hello there!"
+tina.write("A magical wonderful tooth!")   #
 tina.backward(20)                       # Move tina backward by 20
 
 tina.goto(-50,0)
 tina.pendown()
 
-tina.color('black')                       # Set the color of tina to red
+tina.color('blue')                       # Set the color of tina to red
 tina.begin_fill()
 tina.circle(200 )
 tina.end_fill()
