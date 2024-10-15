@@ -9,3 +9,6 @@ write a new program that uses a loop to draw a pentagon.
 """
 
 ... # Your code here
+
+import turtle
+turtle.setup (width)
